@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  bannerPath: "../../../assets/dev.png"
+  bannerPath: "../../../assets/dev.png",
+  resumePath: "../../../assets/resume.pdf"
 };
 
 /*

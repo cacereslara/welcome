@@ -8,7 +8,8 @@ import { environment } from 'src/environments/environment.prod';
 })
 export class BannerComponent implements OnInit {
 
-  public src: string = environment.bannerPath;
+  public imgSrc: string = environment.bannerPath;
+  public resumeSrc: string = environment.resumePath;
 
   constructor() { }
 
