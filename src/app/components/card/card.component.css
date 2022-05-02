@@ -16,6 +16,7 @@
   .card-body {
     background-image: linear-gradient(120deg, #343A4F, #0F1620);
     font-family: var(--bs-secondary-font);
+    border-radius: 0px 0px 15px 15px;
   }
   
   small {

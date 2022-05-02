@@ -11,25 +11,26 @@ export class CoursesService {
   constructor() {
     this._courses = [
       {
-        title: "Microservicios de manera profesional",
+        title: "Microservices: The Professional Way",
         duration: "(60 hs)",
-        subtitle: "Microservicios",
+        subtitle: "MUG",
         items: [
-          "Docker",
-          "AWS",
-          "Linux/Windows"
+          "Architecture Patterns for Microservices",
+          "Cloud Native Patterns (12 factor apps)",
+          "DevOps",
+          "Docker, Kubernetes and OpenShift."
         ]
       },
       {
-        title: "Angular de cero a experto",
+        title: "Angular: Zero to Expert",
         duration: "(50 hs)",
         subtitle: "Udemy",
         items: [
-          "Componentes",
-          "Modulos",
-          "Directivas",
-          "Pipes",
-          "Etc"
+          "Components, Directives, Services",
+          "Modules, Pipes",
+          "Use of third-party libraries written in Angular",
+          "Route protection, Authentication using JsonWebTokens",
+          "API"
         ]
       }
     ]
