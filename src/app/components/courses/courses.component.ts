@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Info } from 'src/app/interfaces/info';
 
 @Component({
   selector: 'app-courses',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./courses.component.css']
 })
 export class CoursesComponent implements OnInit {
+
+  public courses: Array<Info> = [];
 
   constructor() { }
 

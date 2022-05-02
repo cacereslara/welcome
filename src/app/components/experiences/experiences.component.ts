@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Info } from 'src/app/interfaces/info';
 
 @Component({
   selector: 'app-experiences',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperiencesComponent implements OnInit {
 
+  public experiences: Array<Info> = []
+  
   constructor() { }
 
   ngOnInit(): void {

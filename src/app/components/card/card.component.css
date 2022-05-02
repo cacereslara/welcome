@@ -1,0 +1,26 @@
+.card {
+    background-image: linear-gradient(120deg, #383bda, #3D9DEA);
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .card-header {
+    font-family: var(--bs-primary-font);
+    color: black;
+  }
+  
+  .card-title {
+    font-family: var(--bs-primary-font);
+  }
+  
+  .card-body {
+    background-image: linear-gradient(120deg, #343A4F, #0F1620);
+    font-family: var(--bs-secondary-font);
+  }
+  
+  small {
+    padding-left: 1rem;
+    font-size: medium;
+    display: inline-flex;
+    font-weight: normal;
+  }

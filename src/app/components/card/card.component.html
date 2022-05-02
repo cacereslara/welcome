@@ -1,1 +1,15 @@
-<p>card works!</p>
+<div *ngFor="let item of data" class="row pb-3">
+    <div class="col-lg-12">
+        <div class="card">
+            <h5 class="card-header">{{ item.title }}<small>{{item.duration}}</small></h5>
+            <div class="card-body">
+                <h5 class="card-title">{{ item.subtitle }}</h5>
+                <div *ngIf="item.items.length > 0" class="card-text">
+                    <ul>
+                        <li *ngFor="let text of item.items">{{text}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

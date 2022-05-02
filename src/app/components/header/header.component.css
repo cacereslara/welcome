@@ -1,0 +1,9 @@
+a > i {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 1rem;
+}
+
+header {
+    font-family: var(--bs-primary-font);
+}
