@@ -1,3 +1,7 @@
+a {
+    cursor: pointer;
+}
+
 a > i {
     display: flex;
     padding-top: 5px;
